@@ -18,6 +18,8 @@
 		A3E7CE8B2E4BC881007D772B /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE8A2E4BC881007D772B /* ActivityCard.swift */; };
 		A3E7CE8D2E4BD8BC007D772B /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE8C2E4BD8BC007D772B /* WorkoutCard.swift */; };
 		A3E7CE8F2E4BF883007D772B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE8E2E4BF883007D772B /* HomeViewModel.swift */; };
+		A3E7CE922E4BFD77007D772B /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE912E4BFD77007D772B /* Activity.swift */; };
+		A3E7CE962E4BFEFC007D772B /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE952E4BFEFC007D772B /* Workout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		A3E7CE8A2E4BC881007D772B /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
 		A3E7CE8C2E4BD8BC007D772B /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
 		A3E7CE8E2E4BF883007D772B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A3E7CE912E4BFD77007D772B /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		A3E7CE952E4BFEFC007D772B /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,13 +91,39 @@
 		A3E7CE892E4BC825007D772B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A3E7CE872E417CAF007D772B /* ProgressCircleView.swift */,
-				A3E7CE832E4163A5007D772B /* HomeView.swift */,
-				A3E7CE8A2E4BC881007D772B /* ActivityCard.swift */,
-				A3E7CE8C2E4BD8BC007D772B /* WorkoutCard.swift */,
-				A3E7CE8E2E4BF883007D772B /* HomeViewModel.swift */,
+				A3E7CE942E4BFDB9007D772B /* Views */,
+				A3E7CE932E4BFDAE007D772B /* ViewModels */,
+				A3E7CE902E4BFD55007D772B /* Models */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		A3E7CE902E4BFD55007D772B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3E7CE912E4BFD77007D772B /* Activity.swift */,
+				A3E7CE952E4BFEFC007D772B /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3E7CE932E4BFDAE007D772B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A3E7CE8E2E4BF883007D772B /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A3E7CE942E4BFDB9007D772B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3E7CE8C2E4BD8BC007D772B /* WorkoutCard.swift */,
+				A3E7CE8A2E4BC881007D772B /* ActivityCard.swift */,
+				A3E7CE872E417CAF007D772B /* ProgressCircleView.swift */,
+				A3E7CE832E4163A5007D772B /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +199,10 @@
 				A3E7CE822E416229007D772B /* FitnessTabView.swift in Sources */,
 				A3E7CE8F2E4BF883007D772B /* HomeViewModel.swift in Sources */,
 				A3E7CE8D2E4BD8BC007D772B /* WorkoutCard.swift in Sources */,
+				A3E7CE922E4BFD77007D772B /* Activity.swift in Sources */,
 				A3E7CE882E417CAF007D772B /* ProgressCircleView.swift in Sources */,
 				A3E7CE842E4163A5007D772B /* HomeView.swift in Sources */,
+				A3E7CE962E4BFEFC007D772B /* Workout.swift in Sources */,
 				A3E7CE862E416552007D772B /* HistoricDataView.swift in Sources */,
 				A3E7CE742E4133FC007D772B /* ContentView.swift in Sources */,
 				A3E7CE8B2E4BC881007D772B /* ActivityCard.swift in Sources */,
