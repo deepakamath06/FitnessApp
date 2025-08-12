@@ -16,6 +16,8 @@
 		A3E7CE862E416552007D772B /* HistoricDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE852E416552007D772B /* HistoricDataView.swift */; };
 		A3E7CE882E417CAF007D772B /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE872E417CAF007D772B /* ProgressCircleView.swift */; };
 		A3E7CE8B2E4BC881007D772B /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE8A2E4BC881007D772B /* ActivityCard.swift */; };
+		A3E7CE8D2E4BD8BC007D772B /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE8C2E4BD8BC007D772B /* WorkoutCard.swift */; };
+		A3E7CE8F2E4BF883007D772B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7CE8E2E4BF883007D772B /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		A3E7CE852E416552007D772B /* HistoricDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataView.swift; sourceTree = "<group>"; };
 		A3E7CE872E417CAF007D772B /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		A3E7CE8A2E4BC881007D772B /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		A3E7CE8C2E4BD8BC007D772B /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
+		A3E7CE8E2E4BF883007D772B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				A3E7CE872E417CAF007D772B /* ProgressCircleView.swift */,
 				A3E7CE832E4163A5007D772B /* HomeView.swift */,
 				A3E7CE8A2E4BC881007D772B /* ActivityCard.swift */,
+				A3E7CE8C2E4BD8BC007D772B /* WorkoutCard.swift */,
+				A3E7CE8E2E4BF883007D772B /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3E7CE822E416229007D772B /* FitnessTabView.swift in Sources */,
+				A3E7CE8F2E4BF883007D772B /* HomeViewModel.swift in Sources */,
+				A3E7CE8D2E4BD8BC007D772B /* WorkoutCard.swift in Sources */,
 				A3E7CE882E417CAF007D772B /* ProgressCircleView.swift in Sources */,
 				A3E7CE842E4163A5007D772B /* HomeView.swift in Sources */,
 				A3E7CE862E416552007D772B /* HistoricDataView.swift in Sources */,
